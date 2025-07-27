@@ -1,3 +1,7 @@
+
+
+![alt text](</docs/shimaski.png>)
+
 # 📡 Projeto de Rede Corporativa – Werneck S/A
 
 Proposta técnica oficial para a estruturação de uma rede moderna, segura e escalável conectando a matriz (São Paulo) às filiais (Rio de Janeiro e Minas Gerais).
