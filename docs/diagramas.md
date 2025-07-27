@@ -1,4 +1,5 @@
 # DIAGRAMA DE REDE 
+
 ![alt text](</docs/imagens/diagrama/DiagramaderedePNg.png>)
 
 ### **Matriz SP (80 funcionários)**  
