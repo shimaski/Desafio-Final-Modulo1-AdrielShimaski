@@ -45,8 +45,8 @@ A rede corporativa será baseada em:
 - Acesso à nuvem filtrado por firewall
 - Comunicação segura entre unidades
 - Preparação para crescimento sem reestruturação
-- Equipamentos sugeridos com suporte a VLAN, VPN, múltiplos SSIDs e logging
-
+- A rede será configurada com nomes de Wi-Fi (SSIDs) separados para funcionários e visitantes, garantindo mais segurança.
+Também será ativado um sistema de registro (logging), que guarda informações de uso da rede para monitoramento e solução de problemas, sem expor dados pessoais.
 ---
 
 ## 👨‍💻 Autor
