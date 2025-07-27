@@ -1,4 +1,6 @@
-  
+![alt text](</docs/shimaski.png>)  
+
+
 ## PROPOSTA TÉCNICA – PROJETO DE REDE CORPORATIVA  
 
 **Cliente:** Werneck S/A  
