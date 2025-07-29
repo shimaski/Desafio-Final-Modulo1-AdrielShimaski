@@ -27,7 +27,7 @@ A rede proposta oferece:
 - [🧰 Lista de Equipamentos](docs/equipamentos/lista-equipamentos.md)  
 - [🛠️ Plano de Implementação](docs/implementacao/plano-acao.md)  
 - [📊 Diagramas e Arquitetura de Rede](docs/diagramas.md)
-- - [📄 Proposta Técnica Completa em PDF ](docs/pdf/Desafio-Final-Modulo1-AdrielShimaski.pdf) 
+- [📄 Proposta Técnica Completa em PDF ](docs/Pdf/Desafio Final-Modulo1-AdrielShimaski.pdf) 
 
 ---
 
