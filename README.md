@@ -1,66 +1,68 @@
 
 
-![alt text](</docs/shimaski.png>)
+![alt text](</docs/diagrama.png>)
 
-# 📡 Projeto de Rede Corporativa – Werneck S/A
+# Projeto de Arquitetura Segura – Aplicação Node.js
 
-Proposta técnica oficial para a estruturação de uma rede moderna, segura e escalável conectando a matriz (São Paulo) às filiais (Rio de Janeiro e Minas Gerais).
-
----
-
-## 📋 Sumário Executivo
-
-A rede proposta oferece:
-
-- Segmentação por departamentos usando **VLANs**
-- Conexões **VPN site-to-site** entre matriz e filiais
-- **Firewall corporativo** com regras e logs de segurança
-- Rede separada para **visitantes e dispositivos IoT**
-- Integração segura com **serviços em nuvem** (Office 365, CRM)
-- Planejamento com foco em **expansão e desempenho**
+Proposta técnica oficial para a implementação de uma arquitetura moderna, segura e escalável para aplicações web baseadas em **Node.js**, com integração a banco de dados relacional e monitoramento contínuo.
 
 ---
 
-## 📁 Documentação
+##  Sumário Executivo
 
-- [📄 Proposta Técnica Completa](docs/proposta-tecnica-completa.md)  
-- [🧰 Lista de Equipamentos](docs/equipamentos/lista-equipamentos.md)  
-- [🛠️ Plano de Implementação](docs/implementacao/plano-acao.md)  
-- [📊 Diagramas e Arquitetura de Rede](docs/diagramas.md)
-- [📄 Proposta Técnica Completa em PDF ](docs/Pdf/Desafio%20Final-Modulo1-AdrielShimaski.pdf) 
+A arquitetura proposta oferece:
 
----
-
-## 🏗️ Estrutura do Projeto
-
-A rede corporativa será baseada em:
-
-- **Switch Core** centralizando VLANs e servidores na matriz
-- **Firewall com NAT e logging**
-- **VPN site-to-site** conectando filiais RJ (10.1.0.0/24) e MG (10.1.10.0/24)
-- **Servidores locais** (ERP, arquivos, impressão) na matriz
-- **Rede de visitantes** completamente isolada
-- **Acesso remoto seguro** via conexões criptografadas
+- **Proteção perimetral** com WAF/CRS  
+- **Balanceamento de carga** para alta disponibilidade  
+- **Camada de identidade** para autenticação e autorização  
+- **Coleta e correlação de logs** para visibilidade e resposta a incidentes  
+- **Banco de dados PostgreSQL** integrado à aplicação  
+- **Escalabilidade horizontal** via múltiplas instâncias da aplicação  
 
 ---
 
-## ✅ Destaques Técnicos
+##  Documentação
 
-- Arquitetura segmentada por áreas: TI, Financeiro, Atendimento, etc.
-- Acesso à nuvem filtrado por firewall
-- Comunicação segura entre unidades
-- Preparação para crescimento sem reestruturação
-- A rede será configurada com nomes de Wi-Fi (SSIDs) separados para funcionários e visitantes, garantindo mais segurança.
-Também será ativado um sistema de registro (logging), que guarda informações de uso da rede para monitoramento e solução de problemas, sem expor dados pessoais.
----
-
-## 👨‍💻 Autor
-
-**Adriel Shimaski **  
-Curso: *Cybersec - Vai na Web / Kensei*
+- [ Proposta Técnica Completa](docs/proposta-tecnica-completa.md)  
+- [ Tecnologias e Ferramentas](docs/tecnologias.md)  
+- [ Plano de Implementação](docs/implementacao/plano-acao.md)  
+- [ Diagramas e Arquitetura](docs/diagramas.md)  
+- [ Documento em PDF](docs/pdf/arquitetura-nodejs.pdf)  
 
 ---
 
-![Status](https://img.shields.io/badge/status-finalizado-green)
+##  Estrutura do Projeto
+
+A arquitetura da aplicação será baseada em:
+
+- **Internet → WAF/CRS → Load Balancer**  
+- **Aplicação Node.js** com escalabilidade horizontal  
+- **Banco de dados PostgreSQL** para persistência de dados  
+- **Camada de Identidade** garantindo segurança de acesso  
+- **Módulo de Coleta/Correlação** recebendo logs da aplicação e do banco  
+- **Integração com pipelines de segurança e monitoramento**  
+
+---
+
+##  Destaques Técnicos
+
+- **Segurança de ponta a ponta** com WAF, identidade e monitoramento  
+- **Escalabilidade horizontal** para lidar com aumento de usuários  
+- **Alta disponibilidade** com load balancer e redundância  
+- **Centralização de logs** para análise e auditoria  
+- **Banco de dados relacional confiável** com PostgreSQL  
+- Preparação para **integração futura com serviços em nuvem**  
+
+---
+
+##  Autor
+
+**Adriel Shimaski**  
+Curso: *Cybersec - Vai na Web / Kensei*  
+
+
+---
+
+![Status](https://img.shields.io/badge/status-em%20andamento-yellow)
 ![Versão](https://img.shields.io/badge/versão-1.0-blue)
 ![Licença](https://img.shields.io/badge/licença-MIT-green)
